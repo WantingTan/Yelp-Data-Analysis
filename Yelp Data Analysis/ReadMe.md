@@ -108,7 +108,7 @@ CSV Files: [Restauarant Per Capita](Output Files/Analysis 1/CSV Files)
 
 Plot Files: [Restaurant Per Capita Plot](Output Files/Analysis 1/Plot)
 
-<img src="Readme- data/Analysis 1.jpg">
+<img src="Readme- data/Analysis 1.JPG">
 
 ## Places per capita plot
 
@@ -138,7 +138,7 @@ CSV Files: [Restaurants Open Now](Output Files/Analysis 2/CSV Files)
 
 Plot Files: [Restaurant Open Now - Top 10 based on rating ](Output Files/Analysis 2/Plot)
 
-<img src="Readme- data/Analysis 2.jpg">
+<img src="Readme- data/Analysis 2.JPG">
 
 ## Restaurants open with rating plot
 
@@ -164,7 +164,7 @@ CSV Files: [Top Cuisines in the Country](Output Files/Analysis 3/CSV Files)
 
 Plot Files: [Top 3 Restaurants in each Cuisine](Output Files/Analysis 3/Plot)
 
-<img src="Readme- data/Analysis 3.jpg">
+<img src="Readme- data/Analysis 3.JPG">
 
 ## Restaurants cuisine distribution
 
@@ -202,7 +202,7 @@ CSV Files:  [Relation between number of attractions and temperature](Output File
 
 Plot Files: [Relation between number of attractions and temperature](Output Files/Analysis 4/Plot)
 
-<img src="Readme- data/Analysis 4.jpg">
+<img src="Readme- data/Analysis 4.JPG">
 
 ## Number of attractions in each state Vs temperature
 
@@ -253,9 +253,9 @@ Input parameters
 
 CSV Files: [Country_Aggregated_Category](Output Files/Analysis 6/CSV Files)
 
-Plot Files: [Top 3 Restaurants in each Cuisine](Output Files/Analysis 6/Plot)
+Plot Files: [Country Distribution of Business](Output Files/Analysis 6/Plot)
 
-<img src="Readme- data/Analysis 6.jpg">
+<img src="Readme- data/Analysis 6.JPG">
 
 ## Country wise heat map of business
 
