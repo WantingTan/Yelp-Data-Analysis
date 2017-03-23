@@ -58,12 +58,12 @@ Yelp Data - Post Processing
 
 * Storing the restaurant or hotel category and timings in separate CSV files.
 
-Location: [Restaurant Category and Timings](Other Files)
+Location: <a href="Other Files">Restaurant Category and Timings</a>
 
 Population Data - Post Processing
 * Joining population data and country abbreviations to form a consolidated data.
 
-Location: [Consolidated Population Data](Other Files)
+Location: <a href="Other Files">Consolidated Population Data</a>
 
 **Creating the input file for performing analysis**
 
@@ -88,7 +88,7 @@ Input parameters prompted:
 
 **Steps:**
 
-1. The [Processed Data](Other Files) file containing the Yelp and population data is read.
+1. The <a href="Other Files">Processed Data</a> file containing the Yelp and population data is read.
 
 2. The city and country names are passed using argparse to the python file.
 
@@ -104,9 +104,9 @@ Input parameters prompted:
 
 ## Outputs
 
-CSV Files: [Restauarant Per Capita](Output Files/Analysis 1/CSV Files)
+CSV Files: <a href="Output Files/Analysis 1/CSV Files">Restaurant Per Capita</a>
 
-Plot Files: [Restaurant Per Capita Plot](Output Files/Analysis 1/Plot)
+Plot Files: <a href="Output Files/Analysis 1/Plot">Restaurant Per Capita Plot</a>
 
 <img src="Readme- data/Analysis 1.jpg">
 
@@ -128,15 +128,15 @@ Input parameters prompted:
 
 1. The processed csv file containing the Yelp and population data is read
 2. The restaurant timing data is used to get the timing of the restaurant
-3. The time at which the user enters the query is fetched and compared with each of the restaurant timings available [here](Other Files)
+3. The time at which the user enters the query is fetched and compared with each of the restaurant timings available <a href="Other Files">here</a>
 4. Column splitting is done here to ensure that the hours of operation can be compared.
 5. The restaurants that are currently open are displayed
 
 ## Outputs
 
-CSV Files: [Restaurants Open Now](Output Files/Analysis 2/CSV Files)
+CSV Files: <a href="Output Files/Analysis 2/CSV Files">Restaurants Open Now</a>
 
-Plot Files: [Restaurant Open Now - Top 10 based on rating ](Output Files/Analysis 2/Plot)
+Plot Files: <a href="Output Files/Analysis 2/Plot">Restaurant Open Now - Top 10 based on rating </a>
 
 <img src="Readme- data/Analysis 2.jpg">
 
@@ -156,13 +156,13 @@ Input parameters:
 Steps:
 
 1. The processed csv file containing the Yelp and population data is read
-2. Top categories of restaurants are analyzed from the data available [here](Other Files)
+2. Top categories of restaurants are analyzed from the data available <a href="Other Files">here</a>
 
 ## Outputs
 
-CSV Files: [Top Cuisines in the Country](Output Files/Analysis 3/CSV Files)
+CSV Files:  <a href="Output Files/Analysis 3/CSV Files">Top Cuisines in the Country </a>
 
-Plot Files: [Top 3 Restaurants in each Cuisine](Output Files/Analysis 3/Plot)
+Plot Files: <a href="Output Files/Analysis 3/Plot">Top 3 Restaurants in each Cuisine</a>
 
 <img src="Readme- data/Analysis 3.jpg">
 
@@ -180,7 +180,7 @@ Plot Files: [Top 3 Restaurants in each Cuisine](Output Files/Analysis 3/Plot)
 
 **Steps:**
 
-1. The processed csv file containing the Yelp and Temperature is read for US - [Data Source](Other Files)
+1. The processed csv file containing the Yelp and Temperature is read for US - <a href="Other Files">Data Source</a>
 2. The Yelp data is joined with the temperature data.
 3. For each city the number of attractions and average temperature is calculated
 4. Temperature data is already preprocessed and obtained as average for each state in US
@@ -198,9 +198,9 @@ Scatter plots are drawn to find positive or negative correlation between number 
 ## Outputs
 
 
-CSV Files:  [Relation between number of attractions and temperature](Output Files/Analysis 4/CSV Files)
+CSV Files:   <a href="Output Files/Analysis 4/CSV Files">Relation between number of attractions and temperature</a>
 
-Plot Files: [Relation between number of attractions and temperature](Output Files/Analysis 4/Plot)
+Plot Files:  <a href="Output Files/Analysis 4/Plot">Relation between number of attractions and temperature</a>
 
 <img src="Readme- data/Analysis 4.jpg">
 
@@ -225,7 +225,7 @@ Steps:
 
 ## Outputs
 
-Plot Files: [Rating of place and review count Vs Price Rating](Output Files/Analysis 5/Plot)
+Plot Files: <a href="Output Files/Analysis 5/Plot">Rating of place and review count Vs Price Rating</a>
 
 ## Place Rating Vs Price Rating
 
@@ -243,17 +243,17 @@ Input parameters
 1. Business name to aggregata (eg. hotels)
 
 **Steps:**
-1. We fetch the processed Yelp data from the csv [here](Other Files)
+1. We fetch the processed Yelp data from the csv <a href="Other Files">here</a>
 2. Based on user input (hotels,attractions,restaurants) we calculate number of businesses per country.
-2. [countries.geojson](Other Files) file contains the geographic data of the countries.
+2. <a href="Other Files">countries.geojson</a> file contains the geographic data of the countries.
 3. The Yelp Data country code is altered since the datasets have different country codes.
 4. These two files are joined to help us plot a heat map.
 
 ## Output
 
-CSV Files: [Country_Aggregated_Category](Output Files/Analysis 6/CSV Files)
+CSV Files: <a href="Output Files/Analysis 6/CSV Files">Country_Aggregated_Category</a>
 
-Plot Files: [Top 3 Restaurants in each Cuisine](Output Files/Analysis 6/Plot)
+Plot Files: <a href="Output Files/Analysis 6/Plot">Map plot of businesses</a>
 
 <img src="Readme- data/Analysis 6.jpg">
 
