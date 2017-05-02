@@ -112,31 +112,3 @@ Once the user enters his favourite cuisine, two iamges are displayed
 <img src="Output/Analysis 2/topres.PNG">
 
 <img src="Output/Analysis 2/cheapres.PNG">
-
-## ANALYSIS - 3 <img align="right" style="width:350px;height:125px;margin-top:0px;padding-top:0px;" src="Readme images/rateit.jpg"/>
-## ANALYSIS OF REVIEWS
-
-## Criteria
-* Sentiment Analysis of reviews (Naive Bayes Classifier)
-* Map plot of restaurant data
-
-Note: This analysis needs Basemap package to be installed in the system
-
-## Sentiment Analysis Results
-<img src= "Output/Analysis 3/sentiment.PNG">
-
-## Graph
-Correlation between review sentiment and restaurant rating
-   <img src= "Output/Analysis 3/graph.PNG">
-
-### Inference
-* I conclude from the above graph that there is no relation between rating given and the sentiment of reviews
-
-##  Map Plot of restaurants for Boston City
-
-<img src="Output/Analysis 3/mapplot.PNG">
-
-
-```python
-
-```
